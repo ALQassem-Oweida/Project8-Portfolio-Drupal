@@ -64,6 +64,15 @@
             'aliases' => array(),
             'dev_requirement' => false,
         ),
+        'drupal/admin_toolbar' => array(
+            'pretty_version' => '3.3.0',
+            'version' => '3.3.0.0',
+            'reference' => '3.3.0',
+            'type' => 'drupal-module',
+            'install_path' => __DIR__ . '/../../modules/contrib/admin_toolbar',
+            'aliases' => array(),
+            'dev_requirement' => false,
+        ),
         'drupal/bootstrap_library' => array(
             'pretty_version' => '2.0.1',
             'version' => '2.0.1.0',
@@ -267,6 +276,15 @@
             'replaced' => array(
                 0 => '9.5.0',
             ),
+        ),
+        'drupal/gtranslate' => array(
+            'pretty_version' => '1.14.0',
+            'version' => '1.14.0.0',
+            'reference' => '8.x-1.14',
+            'type' => 'drupal-module',
+            'install_path' => __DIR__ . '/../../modules/contrib/gtranslate',
+            'aliases' => array(),
+            'dev_requirement' => false,
         ),
         'drupal/legacy-project' => array(
             'pretty_version' => '1.0.0+no-version-set',
